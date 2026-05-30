@@ -1,5 +1,7 @@
 # py-starter
 
+[![CI](https://github.com/Crankygeek01-dev/py-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/Crankygeek01-dev/py-starter/actions/workflows/ci.yml)
+
 A minimal, modern Python starter: [uv](https://docs.astral.sh/uv/) for env + packaging,
 [Ruff](https://docs.astral.sh/ruff/) for lint + format, `pytest` for tests, `mypy` (strict)
 for types. `src/` layout.
