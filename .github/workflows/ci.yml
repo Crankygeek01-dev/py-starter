@@ -8,10 +8,6 @@ on:
 permissions:
   contents: read
 
-env:
-  # Suppress Node 20 deprecation for any bundled JS actions still on it.
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
