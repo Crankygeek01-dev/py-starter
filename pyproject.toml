@@ -20,9 +20,9 @@ packages = ["src/py_starter"]
 [dependency-groups]
 dev = [
     "mypy>=1.13",
-    "pytest>=8",
+    "pytest>=9.1.1",
     "pytest-cov>=5",
-    "ruff>=0.15.17",
+    "ruff>=0.15.18",
 ]
 
 [tool.ruff]
